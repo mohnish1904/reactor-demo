@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.reactor_demo.ReactorDemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-17T07:45:55.522Z" hostname="AIPL7360LT15130" time="1.678">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.reactor_demo.ReactorDemoApplicationTests" time="1.678"/>
+  <system-out><![CDATA[13:15:52.674 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.reactor_demo.ReactorDemoApplicationTests]: ReactorDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:15:52.902 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.reactor_demo.ReactorDemoApplication for test class com.example.reactor_demo.ReactorDemoApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-03-17T13:15:53.672+05:30  INFO 27276 --- [reactor-demo] [    Test worker] c.e.r.ReactorDemoApplicationTests        : Starting ReactorDemoApplicationTests using Java 17.0.14 with PID 27276 (started by erao in D:\Projects\reactor-demo)
+2025-03-17T13:15:53.674+05:30  INFO 27276 --- [reactor-demo] [    Test worker] c.e.r.ReactorDemoApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-03-17T13:15:55.515+05:30  INFO 27276 --- [reactor-demo] [    Test worker] c.e.r.ReactorDemoApplicationTests        : Started ReactorDemoApplicationTests in 2.31 seconds (process running for 4.978)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
