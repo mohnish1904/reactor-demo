@@ -69,3 +69,20 @@ do processing over it
 
 ### Mono :
 Mono<T>, is a Publisher<T> that produces zero or one value.
+
+### Flux :
+Flux<T>, is a Publisher<T> that produces more than one value.
+
+For flux and Mono methods Refer :
+   > src/main/java/com/example/reactor_demo/demo/FluxDemo.java
+
+
+## BackPressure :
+Backpressure is a way for a subscriber to control the rate at which it receives data from a publisher.
+It prevents the subscriber from being overwhelmed when the publisher emits items too quickly. 
+In Reactive Streams, subscribers can request a specific number of items using request(n).
+If not handled properly, lack of backpressure can cause memory issues or crashes. 
+Project Reactor and RxJava support backpressure via operators like limitRate(), onBackpressureBuffer(), etc.
+
+Refer :
+   > src/main/java/com/example/reactor_demo/demo/BackpressureDemo.java
