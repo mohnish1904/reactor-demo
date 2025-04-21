@@ -76,6 +76,9 @@ Flux<T>, is a Publisher<T> that produces more than one value.
 For flux and Mono methods Refer :
    > src/main/java/com/example/reactor_demo/demo/FluxDemo.java
 
+There are multiple methods provided by the reactive library to handle the incoming streams and perform operations on it
+like merging, converting to list, applying map operations etc.
+
 
 ## BackPressure :
 Backpressure is a way for a subscriber to control the rate at which it receives data from a publisher.
