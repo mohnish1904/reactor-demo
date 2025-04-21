@@ -56,7 +56,7 @@ public class FluxDemo {
 
         fluxDemo.testOnErrorReturn().subscribe(System.out::println);
 
-//        Thread.sleep(10000);
+//        Thread.sleep(10000); // apply thread sleep if we are doing delay elements
     }
 
 
@@ -129,7 +129,7 @@ public class FluxDemo {
     }
 
 
-    /*
+    /**
      *  Zip -
      *  It will provide 1-1 element from each publisher as a tuple. We can zip upto 8 publishers.
      *  - If any one of the publisher is exhausted then the other publisher will not produce any result.
